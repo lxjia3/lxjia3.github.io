@@ -1,3 +1,14 @@
+---
+layout: post
+title: "TTSP方法与Markdown学习"
+date:   2024-10-30
+tags: [测试, 学习]
+comments: true
+author: xxx
+---
+
+
+
 # Hello Runoob!
 ## 时间温度等效原理
 
