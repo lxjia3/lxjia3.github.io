@@ -10,10 +10,7 @@ author: lxjia3
 
 # Sentaurus TCAD 
 
-[菜鸟教程](lxjia3.github.io)
-
 Source:Sentaurus sdevice_ug CHAPTER 17 Traps and Fixed Charges
-
 
 ## 缺陷介绍
 缺陷研究意义：缺陷提供掺杂，增强复合并且提高通过绝缘层的漏电流。本章节模型介绍了缺陷上的占位和存储电荷。
@@ -39,7 +36,7 @@ Physics (Material="Oxide"){
  }
 ```
 
-对于块体材料，只需要一个相关关键词：_Conc_,其单位为 q<sup> cm-3</sup>
+对于块体材料，只需要一个相关关键词：_Conc_,其单位为 _q_cm<sup>-3</sup>
 
 表面的固定电荷可以写成高斯或者均匀分布：
 ```
@@ -49,6 +46,7 @@ Physics (Material="Oxide"){
  SpaceSig = <vector>
  )
 ```
+关键词Conc指定最大表面电荷密度：σ<sub>0</sub>(_q_cm<sup>-2</sup>),SpaceMid 和 SpaceSig 指定电荷分布中心和宽度，可以在均匀分布中设置，但在高斯分布中必须指定。
 
 
 
